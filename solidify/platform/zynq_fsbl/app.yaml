@@ -1,0 +1,4 @@
+domain_path: E:\company\Aunion\Photothermal_Microscopy\program\fpga\solidify\platform\zynq_fsbl\zynq_fsbl_bsp
+app_src_dir: D:\software\xilinx\2025.1\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\company\Aunion\Photothermal_Microscopy\program\fpga\solidify\platform\export\platform\sw\boot\fsbl.elf
+	E:\company\Aunion\Photothermal_Microscopy\program\fpga\solidify\platform\export\platform\hw\sdt\design_2_wrapper.bit
+}

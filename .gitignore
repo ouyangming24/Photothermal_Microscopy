@@ -1,0 +1,121 @@
+# =============================================================================
+# fpga repo .gitignore
+# Ignore Vivado/Vitis build outputs, sim artifacts, binaries, local caches.
+# Keep: HDL/XDC/IP(.xci)/BD, scripts, host source, docs.
+# =============================================================================
+
+# ----- OS / IDE -----
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ----- temp / backup -----
+*.tmp
+*.bak
+*.orig
+*~
+*副本*
+*旧*
+~$*
+
+# ----- binaries / flash images (rebuild locally) -----
+*.bit
+*.bin
+*.BIN
+*.mcs
+*.prm
+*.elf
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.xsa
+*.pdi
+*.ltx
+
+# ----- Vivado generated dirs -----
+**/.Xil/
+**/*.cache/
+**/*.runs/
+**/*.gen/
+**/*.hw/
+**/*.ip_user_files/
+**/*.sim/
+
+# Vivado logs / crash / session
+**/vivado*.jou
+**/vivado*.log
+**/vivado*.str
+**/hs_err_pid*.log
+**/*.backup.jou
+**/*.backup.log
+**/ip_upgrade.log
+**/dfx_runtime.txt
+
+# Vivado checkpoints / binary reports
+*.dcp
+*.pb
+*.wdf
+*.wpc
+
+# Simulation (xsim etc.)
+**/xsim.dir/
+**/*.wdb
+**/xvlog.log
+**/xvlog.pb
+**/xelab.log
+**/xelab.pb
+**/xsim*.jou
+**/xsim*.log
+**/webtalk*.jou
+**/webtalk*.log
+
+# ----- Python host (guang_host) -----
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.python-version
+
+# PyInstaller intermediates (keep .spec / sources)
+guang_host/build/
+guang_host/dist/
+
+# ----- Vitis / solidify -----
+**/export/
+**/.vitisWorkspace.json
+**/_ide/logs/
+**/_ide/.wsdata/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+**/*.ninja
+**/build.ninja
+solidify/build/
+solidify/export/
+solidify/platform/**/build/
+solidify/platform/**/export/
+
+# ----- logs / locks -----
+**/logs/
+*.log
+*.lock

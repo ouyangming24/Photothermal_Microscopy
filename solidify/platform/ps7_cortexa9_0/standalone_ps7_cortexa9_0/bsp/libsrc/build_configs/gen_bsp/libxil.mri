@@ -1,0 +1,13 @@
+create libxil.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xadcps/src/libxadcps.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src/libuartps.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/sdps/src/libsdps.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scuwdt/src/libscuwdt.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scutimer/src/libscutimer.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/qspips/src/libqspips.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/dmaps/src/libdmaps.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/devcfg/src/libdevcfg.a
+addlib E:/company/Aunion/Photothermal_Microscopy/program/fpga/solidify/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+save
+end
